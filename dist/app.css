@@ -41,6 +41,7 @@ nav.icon ul li a {
 
 nav.menu ul {
   text-align: center;
+  margin-right: 50px;
 }
 
 nav.menu ul li {
@@ -65,3 +66,108 @@ nav.menu ul li a {
   height: 100%;
 }
 
+.main {
+  width: 100%;
+  height: 460px;
+  background: url("images/bg-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.painter-essential {
+  width: 60%;
+  color: white;
+}
+
+.content-painter-essential {
+  width: 50%;
+  padding-left: 100px;
+  margin: auto;
+}
+
+.painter-essential ul li {
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.painter-essential ul li a {
+  color: white;
+}
+
+.painter-essential h1,
+.painter-essential h3,
+.painter-essential ul {
+  padding: 15px 0;
+  font-weight: 400;
+}
+
+#download-trial-btn {
+  background-color: #666;
+  padding: 5px 20px;
+  display: inline-block;
+}
+
+#download-trial-btn h4,
+#download-trial-btn h5 {
+  font-weight: 400;
+}
+
+.card-offer {
+  width: 35%;
+  margin-top: 20px;
+  padding: 30px 30px 157px 30px;
+  background-color: #000;
+  color: white;
+  position: relative;
+}
+
+.logo-money-back {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.card-offer h5 {
+  color: #999;
+}
+
+.card-offer h1,
+.card-offer h5 {
+  margin: 20px 0;
+}
+
+.card-offer h1 {
+  margin-bottom: 0;
+}
+
+.card-offer h5 {
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.btn-buy-now {
+  background-color: #009cff;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.btn-buy-now a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 8px 35px;
+  display: inline-block;
+}
+
+.btn-offer {
+  padding: 10px 10px 10px 15px;
+  background-color: white;
+  color: #333333;
+  font-size: 12px;
+}
