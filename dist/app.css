@@ -69,7 +69,7 @@ nav.menu ul li a {
 .main {
   width: 100%;
   height: 460px;
-  background: url("images/bg-hero.jpg");
+  background: url("/images/bg-hero.jpg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -171,3 +171,22 @@ nav.menu ul li a {
   color: #333333;
   font-size: 12px;
 }
+
+.second-nav-menu {
+  background-color: #E6E6E6;
+}
+
+.second-nav-menu ul li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.second-nav-menu ul li a {
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.paintingSoftware h1 {
+  color: red;
+}
+

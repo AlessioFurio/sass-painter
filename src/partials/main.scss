@@ -103,3 +103,17 @@
     color: $textColorSecondary;
     font-size: 12px;
 }
+
+.second-nav-menu {
+    background-color: #E6E6E6;
+}
+
+.second-nav-menu ul li {
+    display: inline-block;
+    padding: $paddingTagSecondary;
+}
+
+.second-nav-menu ul li a {
+    text-transform: uppercase;
+    color: $textColorSecondary;
+}
