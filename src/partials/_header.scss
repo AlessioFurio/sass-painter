@@ -16,8 +16,14 @@ nav.icon ul li {
 }
 
 nav.icon ul li a {
-    color: $textColorPrimary;
+    color: #999;
     font-size: 12px;
+}
+
+nav.icon ul li a i  {
+    color: $colorIconBtn;
+    font-size: 14px;
+    margin-right: 5px;
 }
 
 nav.menu ul {

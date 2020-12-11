@@ -35,8 +35,14 @@ nav.icon ul li {
 }
 
 nav.icon ul li a {
-  color: white;
+  color: #999;
   font-size: 12px;
+}
+
+nav.icon ul li a i {
+  color: #009cff;
+  font-size: 14px;
+  margin-right: 5px;
 }
 
 nav.menu ul {
@@ -108,14 +114,30 @@ nav.menu ul li a {
 }
 
 #download-trial-btn {
+  width: 250px;
   background-color: #666;
-  padding: 5px 20px;
-  display: inline-block;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #download-trial-btn h4,
 #download-trial-btn h5 {
   font-weight: 400;
+}
+
+.content-download-trial-btn {
+  padding-right: 20px;
+  border-right: 1px solid #fff;
+}
+
+.wp-icon-download {
+  padding-left: 20px;
+}
+
+.wp-icon-download i {
+  font-size: 25px;
 }
 
 .card-offer {
@@ -247,6 +269,14 @@ nav.menu ul li a {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 3;
+}
+
+.artificial-intelligence {
+  padding-top: 80px;
+}
+
+.artificial-intelligence .title {
+  color: #333333;
 }
 
 footer {

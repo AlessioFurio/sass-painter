@@ -38,15 +38,28 @@
 }
 
 #download-trial-btn {
+    width: 250px;
     background-color: #666;
-    padding: 5px 20px;
-    display: inline-block;
-
+    padding: 5px;
+    @include flex(center, center);
 }
 
 #download-trial-btn h4,
 #download-trial-btn h5 {
     font-weight: 400;
+}
+
+.content-download-trial-btn {
+    padding-right: 20px;
+    border-right: 1px solid #fff;
+}
+
+.wp-icon-download {
+    padding-left: 20px;
+}
+
+.wp-icon-download i {
+    font-size: 25px;
 }
 
 .card-offer {
