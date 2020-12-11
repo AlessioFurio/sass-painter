@@ -69,7 +69,7 @@ nav.menu ul li a {
 .main {
   width: 100%;
   height: 460px;
-  background: url("/images/bg-hero.jpg");
+  background: url("images/bg-hero.jpg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -86,7 +86,7 @@ nav.menu ul li a {
 }
 
 .content-painter-essential {
-  width: 50%;
+  width: 75%;
   padding-left: 100px;
   margin: auto;
 }
@@ -186,7 +186,65 @@ nav.menu ul li a {
   color: #333333;
 }
 
-.paintingSoftware h1 {
-  color: red;
+.paintingSoftware {
+  background: url("images/intro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
 }
 
+.title {
+  text-align: center;
+  margin-bottom: 100px;
+  color: white;
+}
+
+.title h1 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.title p {
+  font-size: 18px;
+}
+
+.title p:nth-child(3) {
+  padding-top: 80px;
+}
+
+.wp-intro-screen {
+  width: 1000px;
+  height: 560px;
+  margin: auto;
+  position: relative;
+}
+
+.wp-intro-screen img:first-child {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: relative;
+  z-index: 2;
+}
+
+.wp-intro-screen img:nth-child(2) {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border-radius: 30px;
+}
+
+.wp-intro-screen img:nth-child(3) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
